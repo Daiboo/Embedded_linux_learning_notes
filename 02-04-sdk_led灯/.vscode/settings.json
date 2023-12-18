@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.json": "jsonc",
+        "Makefile2": "makefile",
+        "unistd.h": "c",
+        "bsp_beep.h": "c",
+        "cstdint": "cpp",
+        "mcimx6y2.h": "c",
+        "fsl_iomuxc.h": "c"
+    }
+}
