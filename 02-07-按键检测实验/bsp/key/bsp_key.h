@@ -17,12 +17,13 @@
                                 IOMUXC_SW_PAD_CTL_PAD_HYS(0))
                             
 /* 按键值 */
-typedef enum
-{
-    KEY_NONE = 0,
-    KEY0_VALUE,
-}keyvalue;
-
+// typedef enum
+// {
+//     KEY_NONE = 0,
+//     KEY0_VALUE = 1,   // KEY0按下时,引脚是高电平
+// }keyvalue;
+#define KEY_NONE 0
+#define KEY0_VALUE 1    // KEY0按下时,引脚是高电平
 
 
 

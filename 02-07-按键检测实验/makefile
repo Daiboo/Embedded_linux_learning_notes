@@ -16,9 +16,11 @@ SRC_DIR 		:= 	imx6ul \
 					bsp/clk \
 					bsp/delay \
 					bsp/led \
+					bsp/gpio \
 					bsp/key \
 					project \
 					bsp/beep \
+
 
 INC_DIR 		:= 	$(SRC_DIR)
 
