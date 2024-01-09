@@ -14,14 +14,14 @@ _start:
 	msr cpsr, r0		/* 将r0 的数据写入到cpsr_c中 					*/
 
 	/* 清楚bss段 */
-@ 	ldr r0, _bss_start  // r0 = _bss_start
-@ 	ldr r1, _bss_end  // 	r1 = _bss_end
-@ 	mov r2, #0  // r2 = 0
+	ldr r0, _bss_start  // r0 = _bss_start
+	ldr r1, _bss_end  // 	r1 = _bss_end
+	mov r2, #0  // r2 = 0
 
-@ bss_loop:
-@ 	stmia r0!, {r2}  // *r0 = r2, r0 += 1
-@ 	cmp r0, r1  // 比较r0和r1
-@ 	ble bss_loop  // 如果r0 <= r1, 则跳转到bss_loop
+bss_loop:
+	stmia r0!, {r2}  // *r0 = r2, r0 += 1
+	cmp r0, r1  // 比较r0和r1
+	ble bss_loop  // 如果r0 <= r1, 则跳转到bss_loop
 
 
 	ldr sp, =0X80200000	/* 设置栈指针			 */
