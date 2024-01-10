@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.json": "jsonc",
+        "Makefile2": "makefile",
+        "bsp_clk.h": "c"
+    }
+}
