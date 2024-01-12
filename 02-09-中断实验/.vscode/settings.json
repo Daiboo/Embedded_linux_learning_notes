@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "*.json": "jsonc",
+        "Makefile2": "makefile",
+        "unistd.h": "c",
+        "bsp_beep.h": "c",
+        "cstdint": "cpp",
+        "mcimx6y2.h": "c",
+        "fsl_iomuxc.h": "c",
+        "bsk_clk.h": "c",
+        "bsp_clk.h": "c",
+        "bsp_led.h": "c",
+        "imx6ul.h": "c",
+        "fsl_common.h": "c",
+        "bsp_key.h": "c",
+        "bsp_int.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "/usr/local/arm/arm-linux-guneabihf/bin/arm-linux-gnueabihf-gcc"
+}
