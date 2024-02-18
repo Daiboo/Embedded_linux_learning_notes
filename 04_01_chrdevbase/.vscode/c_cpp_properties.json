@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/daiboo/codes/linux_kernel/nxp_4.1.15/include/**",
+                "/home/daiboo/codes/linux_kernel/nxp_4.1.15/arch/arm/include/**",
+                "/home/daiboo/codes/linux_kernel/nxp_4.1.15/arch/arm/include/generated/**"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}

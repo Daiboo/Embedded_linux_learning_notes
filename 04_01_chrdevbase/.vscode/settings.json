@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.json": "jsonc",
+        "Makefile2": "makefile",
+        "ide.h": "c",
+        "stdio.h": "c"
+    }
+}
