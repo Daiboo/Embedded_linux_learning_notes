@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.json": "jsonc",
+        "Makefile2": "makefile",
+        "ide.h": "c",
+        "stdio.h": "c",
+        "kernel.h": "c",
+        "delay.h": "c",
+        "errno.h": "c",
+        "errno-base.h": "c",
+        "map.h": "c",
+        "init.h": "c",
+        "device.h": "c",
+        "cdev.h": "c",
+        "uaccess.h": "c"
+    }
+}
