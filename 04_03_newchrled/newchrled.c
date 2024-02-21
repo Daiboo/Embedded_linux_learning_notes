@@ -26,7 +26,7 @@ red led io:GPIO1_4
 #define LEDON 1    /* turn on */
 
 // register physical address
-#define CCM_CCGR1_BASE  (0x020C406C)                /* enable gpio1 */
+#define CCM_CCGR1_BASE             (0x020C406C)    /* CCM */
 #define SW_MUX_GPIO1_IO04_BASE     (0x020E006C)    /* set gpio1_io04 as gpio alt5 */
 #define SW_PAD_GPIO1_IO04_BASE     (0x020E02F8)    /* set gpio1_io04 pad */
 #define GPIO1_DR_BASE              (0x0209C000)    /* gpio1 data register */ 
